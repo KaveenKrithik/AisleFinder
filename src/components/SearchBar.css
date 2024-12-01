@@ -1,0 +1,40 @@
+.search-bar-container {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.recommendations {
+  position: absolute;
+  top: 60px;
+  width: 50%;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 10;
+  list-style: none;
+}
+
+.recommendations li {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.recommendations li:hover {
+  background-color: #f0f0f0;
+}
+
+
+  
